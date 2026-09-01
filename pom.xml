@@ -6,7 +6,7 @@
 
     <groupId>io.github.mullerhai</groupId>
     <artifactId>torch-gpu-windows</artifactId>
-    <version>13.3-9.24-1.5.14-beta-08.1</version>
+    <version>13.3-9.25-1.5.14-GA-1.0</version>
     <packaging>pom</packaging>
 
     <name>torch-gpu-windows</name>
@@ -54,42 +54,45 @@
         </repository>
     </distributionManagement>
 
+    <!--    13.3-9.25-1.5.14-GA-1.0-->
     <dependencies>
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>javacpp</artifactId>
-            <version>1.5.14-beta-08</version>
+            <version>1.5.14-GA-1.0</version>
         </dependency>
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>javacpp</artifactId>
-            <version>1.5.14-beta-08</version>
+            <version>1.5.14-GA-1.0</version>
             <classifier>windows-x86_64</classifier>
         </dependency>
 
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>openblas</artifactId>
-            <version>0.3.33-1.5.14-beta-08</version>
+            <version>0.3.34-1.5.14-GA-1.0</version>
         </dependency>
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>openblas</artifactId>
-            <version>0.3.33-1.5.14-beta-08</version>
+            <version>0.3.34-1.5.14-GA-1.0</version>
             <classifier>windows-x86_64</classifier>
         </dependency>
         <!-- Source: https://mvnrepository.com/artifact/io.github.mullerhai/cuda -->
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>cuda</artifactId>
-            <version>13.3-9.24-1.5.14-beta-08</version>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
+
         </dependency>
         <!-- Source: https://mvnrepository.com/artifact/io.github.mullerhai/cuda -->
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>cuda</artifactId>
-            <version>13.3-9.24-1.5.14-beta-08</version>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
             <classifier>windows-x86_64</classifier>
+
         </dependency>
 
 
@@ -97,45 +100,55 @@
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>cuda-redist-cublas</artifactId>
-            <version>13.3-9.24-1.5.14-beta-08</version>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
         </dependency>
         <!-- Source: https://mvnrepository.com/artifact/io.github.mullerhai/cuda-redist-cudnn -->
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>cuda-redist-cudnn</artifactId>
-            <version>13.3-9.24-1.5.14-beta-08</version>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
         </dependency>
 
         <!-- Source: https://mvnrepository.com/artifact/io.github.mullerhai/cuda-redist-cusolver -->
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>cuda-redist-cusolver</artifactId>
-            <version>13.3-9.24-1.5.14-beta-08</version>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
         </dependency>
 
         <!-- Source: https://mvnrepository.com/artifact/io.github.mullerhai/cuda-redist-cusparse -->
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>cuda-redist-cusparse</artifactId>
-            <version>13.3-9.24-1.5.14-beta-08</version>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
+            <!--            <scope>compile</scope>-->
         </dependency>
         <!-- Source: https://mvnrepository.com/artifact/io.github.mullerhai/cuda-redist-nccl -->
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>cuda-redist-nccl</artifactId>
-            <version>13.3-9.24-1.5.14-beta-08</version>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
+            <!--            <scope>compile</scope>-->
         </dependency>
         <!-- Source: https://mvnrepository.com/artifact/io.github.mullerhai/cuda-redist-nvcomp -->
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>cuda-redist-nvcomp</artifactId>
-            <version>13.3-9.24-1.5.14-beta-08</version>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
+            <!--            <scope>compile</scope>-->
         </dependency>
         <!-- Source: https://mvnrepository.com/artifact/io.github.mullerhai/cuda-redist-nvcomp -->
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>cuda-redist-npp</artifactId>
-            <version>13.3-9.24-1.5.14-beta-08</version>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
+            <!--            <scope>compile</scope>-->
+        </dependency>
+        <dependency>
+            <groupId>io.github.mullerhai</groupId>
+            <artifactId>cuda-redist</artifactId>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
+            <!--            <scope>compile</scope>-->
         </dependency>
 
 
@@ -145,14 +158,14 @@
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>cuda-redist-cublas</artifactId>
-            <version>13.3-9.24-1.5.14-beta-08</version>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
             <classifier>windows-x86_64</classifier>
         </dependency>
         <!-- Source: https://mvnrepository.com/artifact/io.github.mullerhai/cuda-redist-cudnn -->
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>cuda-redist-cudnn</artifactId>
-            <version>13.3-9.24-1.5.14-beta-08</version>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
             <classifier>windows-x86_64</classifier>
         </dependency>
 
@@ -160,7 +173,7 @@
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>cuda-redist-cusolver</artifactId>
-            <version>13.3-9.24-1.5.14-beta-08</version>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
             <classifier>windows-x86_64</classifier>
         </dependency>
 
@@ -168,31 +181,42 @@
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>cuda-redist-cusparse</artifactId>
-            <version>13.3-9.24-1.5.14-beta-08</version>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
             <classifier>windows-x86_64</classifier>
         </dependency>
         <!-- Source: https://mvnrepository.com/artifact/io.github.mullerhai/cuda-redist-nccl -->
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>cuda-redist-nccl</artifactId>
-            <version>13.3-9.24-1.5.14-beta-08</version>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
             <classifier>windows-x86_64</classifier>
         </dependency>
         <!-- Source: https://mvnrepository.com/artifact/io.github.mullerhai/cuda-redist-nvcomp -->
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>cuda-redist-nvcomp</artifactId>
-            <version>13.3-9.24-1.5.14-beta-08</version>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
             <classifier>windows-x86_64</classifier>
         </dependency>
         <!-- Source: https://mvnrepository.com/artifact/io.github.mullerhai/cuda-redist-nvcomp -->
         <dependency>
             <groupId>io.github.mullerhai</groupId>
             <artifactId>cuda-redist-npp</artifactId>
-            <version>13.3-9.24-1.5.14-beta-08</version>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
 
             <classifier>windows-x86_64</classifier>
         </dependency>
+
+        <dependency>
+            <groupId>io.github.mullerhai</groupId>
+            <artifactId>cuda-redist</artifactId>
+            <version>13.3-9.25-1.5.14-GA-1.0</version>
+
+            <classifier>windows-x86_64</classifier>
+        </dependency>
+
+
+
     </dependencies>
 
     <build>
