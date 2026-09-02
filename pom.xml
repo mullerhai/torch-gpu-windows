@@ -7,7 +7,7 @@
     <groupId>io.github.mullerhai</groupId>
     <artifactId>torch-gpu-windows</artifactId>
     <version>13.3-9.25-1.5.14-GA-1.10</version>
-    <packaging>pom</packaging>
+<!--    <packaging>pom</packaging>-->
 
     <name>torch-gpu-windows</name>
     <description>PyTorch GPU Windows distribution with CUDA support</description>
